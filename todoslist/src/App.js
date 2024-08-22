@@ -9,8 +9,7 @@ import React, { useState,useEffect } from 'react';
 
 function App() {
   let initTodo;
-  // let jeny;
-  if(localStorage.getItem("todos")===null){
+  if(localStorage.getItem("todos") === null){
     initTodo=[];
   } 
   else{
