@@ -1,8 +1,36 @@
-# React + Vite
+NEWS HEADLINE WEBSITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple news website that fetches and displays the latest headlines using the News API. The application is built using React and styled with basic CSS.
 
-Currently, two official plugins are available:
+FEATURES:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Top Headlines: Displays the top 5 news headlines from the US.
+Error Handling: Displays a user-friendly error message if the news can't be fetched.
+Responsive Design: The website is styled to be responsive and looks good on both desktop and mobile devices.
+
+TECHNOLOGIES USED:
+
+Frontend: React.js, 
+Styling: CSS,
+API: News API
+
+
+
+SETUP AND INSTALLATION:
+
+1. Install dependencies:
+
+    Copy code:
+              
+        npm install
+
+
+
+2. Start the development server:
+bash
+Copy code:
+                
+        npm start       
+
+
+The application will be available at your local host
