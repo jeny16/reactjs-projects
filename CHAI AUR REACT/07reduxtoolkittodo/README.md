@@ -1,0 +1,1 @@
+react-redux wiring bet react and redux
