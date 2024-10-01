@@ -6,9 +6,9 @@ export class AuthService {
   account;
 
   constructor() {
-    this.Client.setEndpoint(conf.appwriteUrl).setProject(
-      conf.appwriteProjectId
-    );
+    this.Client
+    .setEndpoint(conf.appwriteUrl)
+    .setProject(conf.appwriteProjectId);
 
     this.account = new Account(this.Client);
   }
@@ -49,17 +49,15 @@ export class AuthService {
     return null;
   }
 
-  async logout(){
+  async logout() {
     try {
-        await this.account.deleteSessions('current');
+      await this.account.deleteSessions("current");
     } catch (error) {
-        console.log("appwrite service :: logout error!!", error);
-        
-        
+      console.log("appwrite service :: logout error!!", error);
     }
   }
 }
 
 const authService = new AuthService();
 
-export default AuthService;
+export default authService;
